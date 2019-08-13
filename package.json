@@ -1,10 +1,9 @@
 {
   "name": "learning-trillo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass" : "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,10 @@
   "bugs": {
     "url": "https://github.com/minhtienvu/Learning-Trillo/issues"
   },
-  "homepage": "https://github.com/minhtienvu/Learning-Trillo#readme"
+  "homepage": "https://github.com/minhtienvu/Learning-Trillo#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
